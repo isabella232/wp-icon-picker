@@ -33,6 +33,19 @@ class Icon_Picker_Field_Cmb extends CMB_Field {
 	}
 
 	/**
+	 * Get multiple values for a field.
+	 *
+	 * We need to wrap this for HTML CMB display
+	 *
+	 * @return array
+	 */
+	public function &get_values() {
+		if ( count( $this->values ) !== 1 ) {
+			return array( $this->values );
+		}
+	}
+
+	/**
 	 * Display the field
 	 *
 	 * @since 0.1.0
