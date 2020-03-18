@@ -40,7 +40,7 @@ class Icon_Picker_Field_Cmb extends CMB_Field {
 	 * @return array
 	 */
 	public function &get_values() {
-		if ( count( $this->values ) !== 1 && $this->args['repeatable'] === false && ! isset( $this->parent ) ) {
+		if ( 1 !== count( $this->values ) && false === $this->args['repeatable'] && ! isset( $this->parent ) ) {
 			return array( $this->values );
 		}
 		return $this->values;
