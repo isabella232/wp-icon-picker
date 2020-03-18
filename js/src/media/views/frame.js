@@ -66,14 +66,10 @@ IconPicker = Select.extend({
 		this.on( 'open', this._ipSetState, this );
 		this.on( 'select', this._ipUpdateTarget, this );
 
-		// Set the menu ARIA tab panel attributes when the modal opens.
+		// Remove from adding ARIA attributes to tab panels.
 		this.off( 'open', this.setMenuTabPanelAriaAttributes, this );
-		// Set the router ARIA tab panel attributes when the modal opens.
 		this.off( 'open', this.setRouterTabPanelAriaAttributes, this );
-
-		// Update the menu ARIA tab panel attributes when the content updates.
 		this.off( 'content:render', this.setMenuTabPanelAriaAttributes, this );
-		// Update the router ARIA tab panel attributes when the content updates.
 		this.off( 'content:render', this.setRouterTabPanelAriaAttributes, this );
 	},
 
