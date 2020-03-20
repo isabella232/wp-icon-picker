@@ -1,14 +1,14 @@
-# Copyright (C) 2017 Dzikri Aziz
+# Copyright (C) 2020 Dzikri Aziz
 # This file is distributed under the GPLv2.
 msgid ""
 msgstr ""
 "Project-Id-Version: Icon Picker 0.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/icon-picker\n"
-"POT-Creation-Date: 2017-02-04 14:05:33+00:00\n"
+"POT-Creation-Date: 2020-03-17 13:35:39+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"

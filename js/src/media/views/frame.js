@@ -65,6 +65,12 @@ IconPicker = Select.extend({
 		this.on( 'toolbar:create:select', this.createSelectToolbar, this );
 		this.on( 'open', this._ipSetState, this );
 		this.on( 'select', this._ipUpdateTarget, this );
+
+		// Remove from adding ARIA attributes to tab panels.
+		this.off( 'open', this.setMenuTabPanelAriaAttributes, this );
+		this.off( 'open', this.setRouterTabPanelAriaAttributes, this );
+		this.off( 'content:render', this.setMenuTabPanelAriaAttributes, this );
+		this.off( 'content:render', this.setRouterTabPanelAriaAttributes, this );
 	},
 
 	/**
