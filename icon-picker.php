@@ -21,7 +21,7 @@
 
 final class Icon_Picker {
 
-	const VERSION = '0.5.0';
+	const VERSION = '0.5.1';
 
 	/**
 	 * Icon_Picker singleton
