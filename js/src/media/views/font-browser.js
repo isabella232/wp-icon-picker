@@ -32,7 +32,7 @@ var IconPickerFontBrowser = wp.media.View.extend( _.extend({
 			type:       this.options.type
 		});
 
-		$model = new Backbone.Model( {} );
+		var $model = new Backbone.Model( {} );
 
 		// Add keydown listener to the instance of the library view
 		this.items.listenTo( $model, 'attachment:keydown:arrow',     this.items.arrowEvent );
